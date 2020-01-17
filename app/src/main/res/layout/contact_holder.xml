@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14sp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Name\t:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameTextView"
+                    android:padding="6dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Amos" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Email\t:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/emailTextView"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="youremail@gmail.com" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14sp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Phone\t:" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/phoneTextView"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="+25434536737338" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
